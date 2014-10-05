@@ -38,15 +38,6 @@ module.exports = function drawImageNormalized (ctx, image, sx, sy, sw, sh, dx, d
     sh -= y;
   }
 
-  sx = ~~sx;
-  sy = ~~sy;
-  sw = ~~sw;
-  sh = ~~sh;
-  dx = ~~dx;
-  dy = ~~dy;
-  dw = ~~dw;
-  dh = ~~dh;
-
   if (sw <= 0 || sh <= 0 || dw <= 0 || dh <= 0) return;
   ctx.drawImage.apply(ctx, [image, sx, sy, sw, sh, dx, dy, dw, dh ]);
 };
