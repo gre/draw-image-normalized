@@ -30,12 +30,12 @@ module.exports = function drawImageNormalized (ctx, image, sx, sy, sw, sh, dx, d
   if (sx + sw > image.width) {
     var x = sx + sw - image.width;
     dw *= (sw - x) / sw;
-    sw -= x;
+    sw = image.width;
   }
   if (sy + sh > image.height) {
     var y = sy + sh - image.height;
     dh *= (sh - y) / sh;
-    sh -= y;
+    sh = image.height;
   }
 
   if (sw <= 0 || sh <= 0 || dw <= 0 || dh <= 0) return;
