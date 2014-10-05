@@ -1,6 +1,6 @@
 {
   "name": "draw-image-normalized",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "improved canvas2d drawImage normalizing values to allow negatives or out of bound parameters.",
   "main": "index.js",
   "author": "Gaëtan Renaudeau",
