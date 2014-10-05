@@ -1,0 +1,24 @@
+{
+  "name": "draw-image-normalized",
+  "version": "0.0.0",
+  "description": "improved canvas2d drawImage normalizing values to allow negatives or out of bound parameters.",
+  "main": "index.js",
+  "author": "Gaëtan Renaudeau",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gre/draw-image-normalized"
+  },
+  "keywords": [
+    "drawImage",
+    "normalize",
+    "crop",
+    "canvas",
+    "canvas2d",
+    "context2d"
+  ],
+  "bugs": {
+    "url": "https://github.com/gre/draw-image-normalized/issues"
+  },
+  "homepage": "https://github.com/gre/draw-image-normalized"
+}
